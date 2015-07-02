@@ -1,0 +1,14 @@
+<h1>Choose a name for your character: </h1>
+  <input type="text" ng-model="character.name" ng-change="hasName = true" placeholder="Enter a name here">
+  <h2 ng-show="hasName">Hello, {{ character.name }}!</h2>
+
+  <h1 ng-show="hasName">Choose a role: </h1>
+
+  <select ng-model="character.role" ng-show="hasName" ng-change="hasRole = true">
+    <option value="Warrior">Warrior</option>
+    <option value="Archer">Archer</option>
+    <option value="Mage">Mage</option>
+ </select>
+
+<h2 ng-show="hasRole">You are the {{ character.role }}</h2>
+<a ng-show="hasRole" ng-click="setChar()" href="#/play">Start playing</a>

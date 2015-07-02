@@ -1,0 +1,12 @@
+<h2>Choose an enemy:</h2>
+<select ng-model="enemy" ng-change="enemyChosen = true">
+	<option value="skeleton">Skeleton</option>
+	<option value="zombie">Zombie</option>
+	<option value="wolf">Wolf</option>
+</select>
+<a ng-show="enemyChosen" href="#/battle/{{enemy}}">fight</a>
+
+<div>
+<h2>Change equipment:</h2>
+	<a href="#/inventory/">inventory</a>
+</div>

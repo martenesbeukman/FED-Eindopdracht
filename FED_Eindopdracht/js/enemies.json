@@ -1,0 +1,14 @@
+{
+    "skeleton": {
+        "health": 1,
+        "damage": 3
+    },
+    "zombie":{
+        "health": 3,
+        "damage": 1
+    },
+    "wolf":{
+        "health": 2,
+        "damage": 2
+    }
+}

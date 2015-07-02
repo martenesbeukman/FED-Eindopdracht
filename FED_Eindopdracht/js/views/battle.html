@@ -1,0 +1,11 @@
+Enemy Stats:
+<ul ng-bind-html="renderEnemy()"></ul>
+
+Hero Stats:
+<ul ng-bind-html="renderHero()"></ul>
+
+<button ng-hide="fought" ng-click="fought=true; renderFight()">Fight!</button>
+
+<div ng-repeat="action in actions" current-fight="action"></div>
+
+<div id="result"></div>

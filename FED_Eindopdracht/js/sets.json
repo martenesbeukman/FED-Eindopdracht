@@ -1,0 +1,14 @@
+{
+    "balanced": {
+        "health": 5,
+        "damage": 5
+    },
+    "offensive":{
+        "health": 4,
+        "damage": 6
+    },
+    "defensive":{
+        "health": 6,
+        "damage": 4
+    }
+}

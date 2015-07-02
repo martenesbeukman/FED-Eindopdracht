@@ -1,0 +1,7 @@
+<h2>Choose an item specialisation:</h2>
+<select ng-model="character.set" ng-change="setChosen = true">
+	<option value="defensive">Defensive</option>
+	<option value="balanced">Balanced</option>
+	<option value="offensive">Offensive</option>
+</select>
+<a ng-show="setChosen" href="#/play">Save set</a>
